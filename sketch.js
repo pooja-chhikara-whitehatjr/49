@@ -26,15 +26,15 @@ var playerLife=5;
 var enemys = [];
 function preload() {
  
-  backgroundImg = loadImage("./images/bg.png");
-  hippoImg = loadAnimation("./images/normalHippo.png","./images/hippoHit.png");
-  damageImg = loadImage("./images/alsoHealthBar.png");
-  hpImg = loadImage("./images/healthBar.png");
-  ballImg = loadImage("./images/tennisBall.png");
-  enemyImg = loadImage("./images/enemyCharacter.png");
-  playerImg = loadImage("./images/player2.png");
-  shooter_shooting = loadImage("./images/shooter_3.png");
-  obstacleImage = loadImage("./images/obstacle.png");
+  backgroundImg = loadImage("./bg.png");
+  hippoImg = loadAnimation("./normalHippo.png","./hippoHit.png");
+  damageImg = loadImage("./alsoHealthBar.png");
+  hpImg = loadImage("./healthBar.png");
+  ballImg = loadImage("./tennisBall.png");
+  enemyImg = loadImage("./enemyCharacter.png");
+  playerImg = loadImage("./player2.png");
+  shooter_shooting = loadImage("./shooter_3.png");
+  obstacleImage = loadImage("./obstacle.png");
 
 }
 
